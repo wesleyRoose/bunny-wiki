@@ -1,0 +1,31 @@
+.footer {
+    background-color: darkgrey;
+    margin-top: 50px;
+}
+
+.contactBlock {
+    background-color: white;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactBlockHolder .title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.textHolder {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contactBlock a, .footer .contactBlock p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.textHolder a {
+    color: white;
+}
+

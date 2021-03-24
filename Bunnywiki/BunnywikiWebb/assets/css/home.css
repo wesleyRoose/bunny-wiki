@@ -1,0 +1,77 @@
+#hero {
+    position: relative;
+    background-image: url("../images/hero-bunny.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#registerBtn {
+    position: fixed;
+    right: 25px;
+    bottom: 5vh;
+    z-index: 999;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.categoryBlocks {
+    border: 1px solid black;
+    object-fit: cover;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.categoryBlocks .title {
+    color: white;
+}
+#categoryImage1 {
+    background-image: url("../images/hero-bunny.jpg");
+}
+
+#categoryImage2{
+    background-image: url("../images/hero-bunny.jpg");
+}
+
+#categoryImage3 {
+    background-image: url("../images/hero-bunny.jpg");
+}
+
+.recommendedProduct {
+
+}
+.recommendedProductName {
+    font-size: 20px;
+}
+
+.recommendedProductTimeLeft {
+    font-size: 16px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.recommendedProductDescription {
+    font-size: 14px;
+}
+.recommendedProduct hr {
+    padding: 0;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.sectie {
+    margin-top: 100px;
+}
